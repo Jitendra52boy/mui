@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "28580773"))
+API_HASH = getenv("API_HASH", "f80e465a8805bee5c6bf29fa12d6cc0c")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5759235328:AAE1977hChV23dVeiWBgRj2L3n6fBX2gpZM")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Visionbot:Visionbot@visionbot.bhbwcls.mongodb.net/?retryWrites=true&w=majority&appName=Visionbot")
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://yt.okflix.top/api') ## E.G https://yt.okflix.top/api/jADTdg-o8i0 Returns Download Info.
@@ -24,10 +24,10 @@ COOKIES_URL=getenv("COOKIES_URL" , "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002430579671"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,11 +44,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/amigr8")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/randomlychats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  5400))
 
 
