@@ -74,7 +74,7 @@ CACHE_SLEEP = int(getenv("CACHE_SLEEP" , "3600"))   #60*60
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQG50WYAGzvAJSsWGwjsqtqdWAJznSvs1PZEuBMFZ60nQp6-P2Cd5Xoro3sQHbXXtTwlxsq2xNp-S1AwxJ9amID8qGYtPpp65BUi8GnP9ZfrYh3KmZwCNfUodRbogroheNUeX6tMlqElZCz6kB5jzdFNhqzzPYs11bHZGzpzYNlvzaUahhwzbhXtyXSqc4eHgevm4jHNi6Eh5c98qQ7MZxlBEF-lCmyh5R3_vFVhlBucfsl7fhDcXyITiY-FQ2NcKOe-RIi7hPZFHUp_cjscQITpwtlH58e1k18zgWCeUHsHhwSf56TtJUofM4s1zPbHwLQly8IIs7J_TtsjK2x5B5Gjz1yaeAAAAAHaLy2nAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -89,21 +89,21 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://envs.sh/mAe.jpg"]
+START_IMG_URL = ["https://envs.sh/MW2.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/mAe.jpg"
+    "PING_IMG_URL", "https://envs.sh/MW2.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/mAe.jpg"
-STATS_IMG_URL = "https://envs.sh/mAe.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/mAe.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/mAe.jpg"
-STREAM_IMG_URL = "https://envs.sh/mAe.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/mAe.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/mAe.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/mAe.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/mAe.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/mAe.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/MW2.jpg"
+STATS_IMG_URL = "https://envs.sh/MW2.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/MW2.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/MW2.jpg"
+STREAM_IMG_URL = "https://envs.sh/MW2.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/MW2.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/MW2.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/MW2.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/MW2.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/MW2.jpg"
 
 
 
