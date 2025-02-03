@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "22451357"))
-API_HASH = getenv("API_HASH", "12d0d818163ac1eb5c02e2901b7ec9a4‎")
+API_ID = int(getenv("API_ID", "28954982"))
+API_HASH = getenv("API_HASH", "‎94ccef265a479793912c6691cf4963ea")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "7882219337:AAGdcE3l-9KDxpoUJcmUa9ttDHVtQB6lTyg")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Raghav23:Raghav23@cluster0.6nrx6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Raghav23:Raghav23@cluster0.6nrx6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://yt.okflix.top/api') ## E.G https://yt.okflix.top/api/jADTdg-o8i0 Returns Download Info.
@@ -74,7 +74,7 @@ CACHE_SLEEP = int(getenv("CACHE_SLEEP" , "3600"))   #60*60
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFWlJ0AZOpEQ0d77pyktZd0iqSZ7hG_JAoEqSJEn9VUmj1kzlZYE71S1DD7qoJgFgRaFCXLVE-c_7qCZ0piXNcVBIgFkpyDvS2oZA338NBbegkRTO1G_V2NvRFqbZGhNRUnLxo_gVMqYQs4ESRqK7z6TkXwvpqTwA_vWYuarusNaIFSdRCnfGD2Iv4ZxAJTWEhidaYGMBzhCFnX2qZOQkOewEpdrlBDyUwalSuYzg4q9hzVA50iS4DwUbaUL1Pe2kiYtU6HPrmtfVpmjb5t8tTNme3jVgosOzPYu8QI3ahCTrcrUYV8lQdXVDSyzxOCg_u5ODNyrek7sVTHgRdizDelFzozTwAAAAHS3f_SAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
