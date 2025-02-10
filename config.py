@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "‎")
+API_ID = int(getenv("API_ID", "28954982"))
+API_HASH = getenv("API_HASH", "‎94ccef265a479793912c6691cf4963ea")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "7882219337:AAGnXDfjGzcovECWfF2M2YVezJt6M5mJlHs")
@@ -21,7 +21,7 @@ YTPROXY_URL = getenv("YTPROXY_URL", 'https://yt.okflix.top/api') ## E.G https://
 COOKIES_URL=getenv("COOKIES_URL" , "")
 
 ## Other vaes
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 120))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002430579671"))
@@ -73,7 +73,7 @@ CACHE_DURATION = int(getenv("CACHE_DURATION" , "86400"))  #60*60*24
 CACHE_SLEEP = int(getenv("CACHE_SLEEP" , "3600"))   #60*60
 
 
-# Get your pyrogram v2 session from @StringFatherBot on Telegram
+# Get your pyrogram v2 session from 
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
